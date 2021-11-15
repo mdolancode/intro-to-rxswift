@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52252C7D6DE895906F0C8CB2 /* Pods_IntroToRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C22A845F40AC5ED7629835 /* Pods_IntroToRxSwift.framework */; };
+		C52154E12742004400829430 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52154E02742004400829430 /* ProductViewModel.swift */; };
 		C5BAA1AB2741F3CC004B3186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BAA1AA2741F3CC004B3186 /* AppDelegate.swift */; };
 		C5BAA1AD2741F3CC004B3186 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BAA1AC2741F3CC004B3186 /* SceneDelegate.swift */; };
 		C5BAA1AF2741F3CC004B3186 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BAA1AE2741F3CC004B3186 /* ProductViewController.swift */; };
@@ -20,6 +21,7 @@
 		30B55DC833385573EA993E4D /* Pods-IntroToRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroToRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-IntroToRxSwift/Pods-IntroToRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		81C22A845F40AC5ED7629835 /* Pods_IntroToRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntroToRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		977F5A1576553BE351639AE2 /* Pods-IntroToRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroToRxSwift.release.xcconfig"; path = "Target Support Files/Pods-IntroToRxSwift/Pods-IntroToRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C52154E02742004400829430 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		C5BAA1A72741F3CC004B3186 /* IntroToRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BAA1AA2741F3CC004B3186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5BAA1AC2741F3CC004B3186 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				C5BAA1AA2741F3CC004B3186 /* AppDelegate.swift */,
 				C5BAA1AC2741F3CC004B3186 /* SceneDelegate.swift */,
 				C5BAA1AE2741F3CC004B3186 /* ProductViewController.swift */,
+				C52154E02742004400829430 /* ProductViewModel.swift */,
 				C5BAA1B02741F3CC004B3186 /* Main.storyboard */,
 				C5BAA1B32741F3CE004B3186 /* Assets.xcassets */,
 				C5BAA1B52741F3CE004B3186 /* LaunchScreen.storyboard */,
@@ -207,6 +210,7 @@
 			files = (
 				C5BAA1AF2741F3CC004B3186 /* ProductViewController.swift in Sources */,
 				C5BAA1AB2741F3CC004B3186 /* AppDelegate.swift in Sources */,
+				C52154E12742004400829430 /* ProductViewModel.swift in Sources */,
 				C5BAA1AD2741F3CC004B3186 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
