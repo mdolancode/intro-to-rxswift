@@ -33,11 +33,23 @@ struct ProductViewModel {
 
 class ViewController: UIViewController {
     
+    private let tableView: UITableView = {
+       let tableView = UITableView()
+        tableView.register(UITableView.self, forCellReuseIdentifier: "cell")
+        return tableView
+    }()
+    
+    private var viewModel = ProductViewModel()
+    private var disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.addSubview(tableView)
+        tableView.frame = view.bounds
+        bindTableView()
     }
     
-    
+    func bindTableView() {
+    }
 }
 
