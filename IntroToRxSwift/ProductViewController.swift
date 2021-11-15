@@ -9,11 +9,6 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-struct Product {
-    let imageName: String
-    let title: String
-}
-
 class ProductViewController: UIViewController {
     
     private let tableView: UITableView = {
