@@ -31,7 +31,7 @@ struct ProductViewModel {
     }
 }
 
-class ViewController: UIViewController {
+class ProductViewController: UIViewController {
     
     private let tableView: UITableView = {
        let tableView = UITableView()
